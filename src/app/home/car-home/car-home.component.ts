@@ -1,3 +1,4 @@
+
 import { NgFor, NgIf } from '@angular/common';
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
@@ -7,7 +8,7 @@ import { Car } from '../../model/Car.model';
 @Component({
   selector: 'app-car-home',
   standalone: true,
-  imports: [NgFor, NgIf, RouterLink, RouterLinkActive, RouterModule],
+  imports: [NgFor,RouterLink, RouterLinkActive, RouterModule],
   templateUrl: './car-home.component.html',
   styleUrl: './car-home.component.css'
 })
@@ -26,4 +27,5 @@ export class CarHomeComponent {
       this.eachCar = data;
     });
   }
+
 }

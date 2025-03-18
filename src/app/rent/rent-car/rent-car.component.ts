@@ -8,7 +8,7 @@ import { data } from 'jquery';
 @Component({
   selector: 'app-rent-car',
   standalone: true,
-  imports: [RouterLink, RouterLinkActive, NgFor, RouterModule, NgClass, NgStyle, CommonModule],
+  imports: [RouterLink, RouterLinkActive, NgFor, RouterModule,CommonModule],
   templateUrl: './rent-car.component.html',
   styleUrl: './rent-car.component.css'
 })

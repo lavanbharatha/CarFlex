@@ -38,4 +38,5 @@ export class CarService {
     const car = this.cars.find((resCar: any) => resCar.carId === id);
     return car ? car.carFeatures : [];
   }
+
 }
