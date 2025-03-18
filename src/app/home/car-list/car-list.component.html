@@ -21,8 +21,8 @@
                     <th colspan="2">Action</th>
                 </tr>
             </thead>
-            <tbody *ngFor="let car of carObs">
-                <tr>
+            <tbody>
+                <tr *ngFor="let car of carObs">
                     <td>{{car.carId}}</td>
                     <td>{{car.carBrand}}</td>
                     <td>{{car.carPrice}}</td>
@@ -39,6 +39,7 @@
         </table>
     </div>
 </div>
+
 
 
 <div class="modal modal-sm" id="imageModal" [ngClass]="{ 'show': showDeleteModal }"
